@@ -1,0 +1,28 @@
+# 임시 작업과 결과 ZIP
+work/
+outputs/
+*.zip
+# 개발 도구와 의존성
+node_modules/
+.next/
+.vinext/
+dist/
+coverage/
+.sites-runtime/
+.openai/
+.wrangler/
+.agents/
+.codex/
+# 비밀 설정과 개인 데이터
+.env
+.env.*
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+# 운영체제와 로그
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
